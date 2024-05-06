@@ -1,6 +1,6 @@
 ## Requirements
 
-Certain parts of the project were created using Cython. The repositiory comes with precompiled binares for Anaconda3-2024.02. It is required to recompile all cython files in `cythin_files` folder and copy binares to the main folder.
+Certain parts of the project were created using Cython. The repositiory comes with precompiled binares for Anaconda3-2024.02. It is required to recompile all cython files in `cython_files` folder and copy binares to the main folder.
 
 ## Running simulation
 
@@ -39,3 +39,5 @@ Folowing table coresponds names of parameters in article to their coresponding n
 | interconnection threshold (µm) | Controlled by atribute `connection_distance` in `GlobalSimulation` |
 | primordium connection distance | Controlled by atribute `primordium_connection_distance` in `GlobalSimulation` |
 | primordium divergence angle | Controlled by atribute `angle_offest` in `SurfacePoints` |
+| angular threshold | Controlled by atribute `angle_error` in `SurfacePoints` |
+
