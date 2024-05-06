@@ -1,0 +1,1 @@
+ffmpeg -r 8 -i rotated_step_%03d.jpg -c:v libx264 -vf fps=24 -pix_fmt yuv420p rotated_out.mp4
