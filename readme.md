@@ -41,3 +41,7 @@ Folowing table coresponds names of parameters in article to their coresponding n
 | primordium divergence angle | Controlled by atribute `angle_offest` in `SurfacePoints` |
 | angular threshold | Controlled by atribute `angle_error` in `SurfacePoints` |
 
+## Comparison to random walk
+
+Comparison between a skeleton and random walk is done using `DataContext.sample_random_distance` method in `batch_scripts/distance_calculation.py`
+
