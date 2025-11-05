@@ -43,5 +43,9 @@ Folowing table coresponds names of parameters in article to their coresponding n
 
 ## Comparison to random walk
 
-Comparison between a skeleton and random walk is done using `DataContext.sample_random_distance` method in `batch_scripts/distance_calculation.py`
+Comparison between a skeleton and random walk (Fig. 4A) is done using `DataContext.sample_random_distance` method in `batch_scripts/distance_calculation.py`
+
+## PCA Annalisys
+
+Images 4F-H were done using `PCA_analisys/notebook.ipynb`
 
